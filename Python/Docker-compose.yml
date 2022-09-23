@@ -13,7 +13,6 @@ services:
       - pgdb
 
   pgdb:
-  f
     image: postgres
     environment:
     - POSTGRES_DB=postgres
